@@ -1,0 +1,223 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Volkhov:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fefefe;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.main-header {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+}
+
+.logo-dot {
+  color: #ff6b6b;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.applynow-btn {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #f0f4ff;
+}
+
+.exact-hero-content {
+  max-width: 50%;
+}
+
+.subtitle {
+  font-weight: bold;
+  color: #ff6b6b;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Volkhov', serif;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #003366;
+}
+
+.desc {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-btn, .play-btn {
+  padding: 12px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.search-btn {
+  background-color: #003366;
+  color: #fff;
+}
+
+.search-btn:hover {
+  background-color: #001f4d;
+}
+
+.play-btn {
+  background-color: transparent;
+  color: #003366;
+  border: 2px solid #003366;
+}
+
+.play-btn:hover {
+  background-color: #003366;
+  color: #fff;
+}
+
+.hero-main-img, .Graduate-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+/* FACILITIES SECTION */
+.section-category {
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: 600;
+  color: #ff6b6b;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* FACILITY CARDS */
+.faci-header-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.exact-faci-card {
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  width: 180px;
+}
+
+.exact-faci-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+/* UNIVERSITIES SECTION */
+.university {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.university-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.custom-university-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.custom-university-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 260px;
+}
+
+.custom-university-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.custom-card-content {
+  padding-top: 1rem;
+}
+
+.custom-card-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.custom-card-icon {
+  font-size: 1.2rem;
+}
