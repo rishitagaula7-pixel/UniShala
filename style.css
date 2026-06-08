@@ -154,6 +154,27 @@ h1 {
   padding: 2rem;
   flex-wrap: wrap;
 }
+/* Add this block to fix the horizontal layout */
+.exact-faci-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Makes all cards the same height */
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap; /* Keeps it responsive on mobile screens */
+}
+
+/* This is your original card code, keep it below the container code */
+.exact-faci-card {
+  background: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  width: 220px; /* Increased slightly so text fits beautifully */
+}
+
 
 .exact-faci-card {
   background: #fff;
